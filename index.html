@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+
+    <div class="desc">
+        <h1>Menu Navigation with Cool Hover</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+    </div>
+
+    <a class="btnm">
+        <span></span>
+        <span></span>
+        <span></span>
+    </a>
+
+    <div class="menu">
+        <a class="ion-document"></a>
+        <a class="ion-trash-a"></a>
+        <a class="l1 ion-folder"></a>
+        <a class="l2 ion-calendar"></a>
+        <a class="ion-locked"></a>
+        <a class="ion-chatbox-working"></a>
+
+    </div>
+
+    <script type="text/javascript">
+      $(".btnm").on("click",function(){
+          $(".btnm").toggleClass("btnn");
+          $(".menu").toggleClass("show");
+      })
+    
+    </script>
+    
+</body>
+</html>
